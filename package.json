@@ -1,0 +1,35 @@
+{
+  "name": "nth-level-node-remove",
+  "version": "1.0.0",
+  "description": "To remove multiple nodes(object) from nth level tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PShah89/nth-level-node-remove.git"
+  },
+  "keywords": [
+    "nth-level-tree",
+    "nthleveltree",
+    "recursive-remove-node",
+    "recursive-node",
+    "node-remove",
+    "remove-multiple-node",
+    "remove-multiple-object",
+    "remove-multiple-objects from array of objects",
+    "remove obect from nth level tree",
+    "remove multiple obect from nth level tree",
+    "delete node",
+    "delete multiple node",
+    "delete multiple obect from nth level tree",
+    "delete-multiple-objects from array of objects",
+  ],
+  "author": "Pratik Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PShah89/nth-level-node-remove/issues"
+  },
+  "homepage": "https://github.com/PShah89/nth-level-node-remove#readme"
+}
