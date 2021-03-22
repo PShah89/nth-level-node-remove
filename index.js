@@ -1,4 +1,9 @@
-module.exports.removeObjectFromTree = async function(optionsObj){
+module.exports.removeObjectFromTree = function(optionsObj){
+	let finalData = removeObject(optionsObj);
+  	return finalData;
+}
+
+function removeObject(optionsObj){
 	let treedata =  optionsObj.treeObj;
 	let removeChild = optionsObj.removeArray;
 	let uniqueId = optionsObj.uniqueKey;
@@ -14,8 +19,9 @@ module.exports.removeObjectFromTree = async function(optionsObj){
 				"removeArray": removeChild,
 				"uniqueKey" : uniqueId
 			};
-			return removeObjectFromTree(obj)
+			return removeObject(obj)
       	} 
   	});
-  	return treedata;
+
+    return treedata;
 }
